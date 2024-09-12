@@ -1,7 +1,6 @@
 package com.example.movieapp.domain.mapper
 
-import com.example.movieapp.data.model.MovieSearch.MovieSearchResponse
-import com.example.movieapp.data.model.MovieSearch.Search
+import com.example.movieapp.data.model.Search.Search
 import com.example.movieapp.domain.model.Movie
 
 fun Search.toDomainModel(): Movie {

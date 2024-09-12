@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    alias(libs.plugins.safeargsKotlin)
 }
 
 android {
@@ -63,7 +64,13 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.coroutines)
     implementation(libs.recyclerview)
+    implementation(libs.glide.image)
     implementation(libs.retrofit.converter)
+    implementation(libs.loggingInterceptor)
+    implementation(libs.androidx.fragment)
+    implementation(libs.androidx.navigation.fragment)
+    implementation(libs.androidx.navigation.fragment.ui)
+    implementation(libs.androidx.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

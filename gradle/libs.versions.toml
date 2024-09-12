@@ -11,6 +11,12 @@ composeBom = "2023.08.00"
 retrofit = "2.11.0"
 coroutines = "1.8.0"
 recyclerView = "1.3.2"
+fragmentVersion = "1.8.3"
+navigationFragment = "2.8.0"
+safeArgs = "2.6.0"
+glide = "4.16.0"
+okhttp = "4.12.0"
+appcompat = "1.7.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,9 +37,16 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 retrofit-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 recyclerview = {group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerView"}
+androidx-fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragmentVersion" }
+androidx-navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+androidx-navigation-fragment-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationFragment" }
+glide-image = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+loggingInterceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+safeargsKotlin = { id = "androidx.navigation.safeargs.kotlin", version.ref = "safeArgs" }
 

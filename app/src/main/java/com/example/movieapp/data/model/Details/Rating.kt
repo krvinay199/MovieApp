@@ -1,4 +1,4 @@
-package com.example.movieapp.data.model
+package com.example.movieapp.data.model.Details
 
 data class Rating(
     val Source: String?,

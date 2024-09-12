@@ -2,4 +2,26 @@
     <string name="app_name">Movie App</string>
     <string name="search_for_movies">Search for movies</string>
     <string name="search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unknown_error">Unknown error!!</string>
+    <string name="no_data_found">No data found!</string>
+    <string name="movie_image">Movie Image</string>
+    <string name="movie_details">Movie Details :</string>
+    <string name="genre">Genre</string>
+    <string name="country">Country</string>
+    <string name="languages">Languages</string>
+    <string name="box_office">Box-Office</string>
+    <string name="awards">Awards</string>
+    <string name="rated">Rated</string>
+    <string name="imdb_rating">Imdb Rating</string>
+    <string name="imdb_votes">Imdb Votes</string>
+    <string name="writer">Writer</string>
+    <string name="director">Director</string>
+    <string name="back_button">Back Button</string>
+    <string name="details">Details :</string>
+    <string name="runtime">Runtime</string>
+    <string name="actors">Actors</string>
+    <string name="production">Production</string>
+    <string name="search_screen">Search Your Favourite Movie… 😊</string>
 </resources>

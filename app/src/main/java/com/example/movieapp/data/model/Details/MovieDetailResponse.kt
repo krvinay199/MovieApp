@@ -1,6 +1,6 @@
-package com.example.movieapp.data.model
+package com.example.movieapp.data.model.Details
 
-data class MovieResponse(
+data class MovieDetailResponse(
     val Actors: String?,
     val Awards: String?,
     val BoxOffice: String?,
@@ -14,7 +14,7 @@ data class MovieResponse(
     val Poster: String?,
     val Production: String?,
     val Rated: String?,
-    val Ratings: List<Rating?>?,
+    val Ratings: List<Rating>?,
     val Released: String?,
     val Response: String?,
     val Runtime: String?,

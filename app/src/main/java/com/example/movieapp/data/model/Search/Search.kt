@@ -1,4 +1,4 @@
-package com.example.movieapp.data.model.MovieSearch
+package com.example.movieapp.data.model.Search
 
 data class Search(
     val Poster: String?,
